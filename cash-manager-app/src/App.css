@@ -2,10 +2,64 @@
 
 :root {
   --primary-color: #FBBF24;
+  --secondary-color: #78350F;
 }
 
 * {
   font-family: 'Montserrat', sans-serif;
+}
+
+.app__heading {
+  padding: 2rem 0px;
+}
+
+.mb-2 {
+  margin-bottom: 2rem;
+}
+
+.app__label {
+  margin: 1rem 0px;
+  color: var(--secondary-color);
+  font-weight: bold;
+  font-size: larger;
+}
+
+.app__input {
+  width: 90%;
+  padding: 1rem 0.5rem;
+  border-radius: 0.2rem;
+  border: none;
+}
+
+.app__result {
+  padding: 2rem 0px;
+}
+
+.app__resultTable {
+  margin: 2rem 0px;
+  table-layout: fixed;
+  width: 95%;
+  margin: auto;
+}
+
+th, td {
+  background-color: var(--secondary-color);
+  color: white;
+  padding: 0.5rem;
+  word-wrap: break-word;
+}
+
+.bg-w {
+  background-color: white;
+  color: var(--secondary-color);
+}
+
+.app__button {
+  margin: 1rem;
+  padding: 0.7rem;
+  background-color: var(--secondary-color);
+  color: white;
+  border: none;
 }
 
 .app {
