@@ -9,3 +9,5 @@
 ## Extras: - 
 1. Second input is only visible after the first input is given
 2. Displays error message when data is not valid
+
+P.S. If you like the repo do give it a star ⭐
